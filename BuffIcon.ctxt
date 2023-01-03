@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BuffIcon
+comment0.text=\r\n\ Parent\ class\ BuffIcon\ is\ used\ for\ inheritance\ of\ variables,\ constructor,\ actor\ and\ methods\ of\ the\ child\ classes.\ \r\n\ The\ class\ spawns\ in\ Icons\ to\ display\ at\ the\ top\ right\ of\ the\ screen\ and\ disappears\ in\ correlation\ to\ how\ long\ the\ buff\ lasts\r\n\ \r\n\ @author\ (William\ Tang)\ \r\n\ @version\ (June\ 22,\ 2022)\r\n
+comment1.params=
+comment1.target=BuffIcon()
+comment1.text=\r\n\ Constructor\ for\ BuffIcon\r\n\ Initializes\ Variables\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\nThe\ act\ method\ determines\ when\ the\ object\ is\ removed\ from\ the\ world\ and\ when\ the\ Icon\ will\ begin\ fading\ out.\r\n
+comment3.params=
+comment3.target=void\ scaleImages()
+comment3.text=\r\n\ scaleImages()\ is\ a\ method\ for\ each\ child\ class\ to\ initialize\ images\ to\ variables\ and\ scale\ them\ if\ needed\r\n
+comment4.params=
+comment4.target=void\ idleAnimate()
+comment4.text=\r\n\ idleAnimate()\ is\ a\ method\ used\ to\ iterate\ through\ images\ in\ an\ array\ and\ animate\ them.\r\n
+numComments=5

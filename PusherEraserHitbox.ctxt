@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PusherEraserHitbox
+comment0.text=\r\n\ Hitbox\ for\ the\ pusher\ eraser\r\n\ \r\n\ @author\ Henry\r\n\ @version\ June\ 10\r\n
+comment1.params=radius\ owner\ c
+comment1.target=PusherEraserHitbox(int,\ PusherEraser,\ greenfoot.Color)
+comment1.text=\r\n\ This\ constructor\ reuses\ the\ superclass'\ constructor\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\ \r\n\ This\ act\ method\ reuses\ the\ superclass'\ act\ method.\r\n
+comment3.params=
+comment3.target=PusherEraser\ getOwner()
+comment3.text=\r\n\ Getter\ method\ to\ return\ the\ owner\ of\ this\ hitbox.\r\n\ \r\n\ @return\ PusherEraser\ returns\ the\ PusherEraser\ instance\ that\ owns\ this\ hitbox\ instance.\r\n
+numComments=4

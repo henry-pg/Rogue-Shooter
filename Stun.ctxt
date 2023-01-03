@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Stun
+comment0.text=\r\n\ Stun\ actor\ to\ display\ over\ the\ Pencil\ actor\ when\ stunned.\ The\ class\ will\ play\ an\ animation\ and\ sound\ when\ stunned.\r\n\ \r\n\ @author\ William\r\n\ @version\ June\ 22,\ 2022\ \r\n
+comment1.params=owner
+comment1.target=Stun(Pencil)
+comment1.text=\r\n\ Constructor\ for\ Stun\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Sets\ the\ location\ of\ the\ actor\ and\ calls\ the\ stunAnimate\ method\ to\ play\ the\ stun\ animation\r\n
+comment3.params=
+comment3.target=void\ stunAnimate()
+comment3.text=\r\n\ For\ the\ stun\ Animation\r\n
+numComments=4

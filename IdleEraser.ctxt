@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IdleEraser
+comment0.text=\r\n\ IdleEraser\ is\ the\ class\ that\ contains\ the\ idle\ animation\ for\ the\ eraser\ on\ the\ TitleWorld.\r\n\ \r\n\ @author\ Charis\ \r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=IdleEraser()
+comment1.text=\r\n\ The\ main\ constructor\ for\ the\ IdleEraser\ class\r\n\ It\ scales\ the\ images\ and\ sets\ the\ first\ image\ as\ the\ first\ image\ of\ the\ animation\ frames.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ The\ act\ method\ is\ called\ when\ the\ code\ is\ running.\r\n
+comment3.params=
+comment3.target=void\ scaleImages()
+comment3.text=\r\n\ A\ method\ used\ to\ scale\ the\ images\ and\ assign\ them\ to\ a\ variable.\r\n
+comment4.params=
+comment4.target=void\ idleAnimate()
+comment4.text=\r\n\ A\ method\ used\ to\ animate\ the\ image\ by\ changing\ the\ animation\ frame\ every\ few\ acts.\r\n
+numComments=5

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=IntelligentEraser
+comment0.text=\r\n\ Refer\ to\ the\ Eraser\ super\ class.\ Intelligent\ Eraser\ is\ a\ default-type,\ erasing-type\ enemy\ that\ finds\ and\ erases\ to\ the\ closest\ ink.\ \r\n\ \r\n\ @author\ Johnathan\ Lam\r\n\ @version\ June\ 9,\ 2022\r\n
+comment1.params=maxSpeed\ eraseWidth
+comment1.target=IntelligentEraser(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ IntelligentEraser\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Walks\ to\ the\ closest\ ink\ (and\ then\ erases\ it)\r\n
+comment3.params=
+comment3.target=void\ walk()
+comment3.text=\r\n\ Finds\ the\ closest\ ink\ then\ walks\ to\ the\ said\ ink\r\n
+comment4.params=
+comment4.target=void\ idleAnimate()
+comment4.text=\r\n\ Idle\ animation\ for\ the\ eraser\r\n
+comment5.params=
+comment5.target=void\ scaleImages()
+comment5.text=\r\n\ Scales\ the\ images.\r\n
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MachineGunBullet
+comment0.text=\r\n\ Projectile\ fired\ by\ Machine\ Gun\r\n\ \r\n\ @author\ Ethan\ Lin\r\n\ @version\ June\ 2022\r\n
+comment1.params=rotation
+comment1.target=MachineGunBullet(int)
+comment1.text=\r\n\ Constructor\ for\ Machine\ Gun\ Bullet.\ Calls\ the\ superclass'\ constructor\r\n\ \r\n\ @param\ rotation\ \ \ \ \ \ The\ rotation\ of\ the\ weapon\ that\ fired\ it\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ Machine\ Gun\ Bullet.\ Calls\ the\ superclass'\ act\ method\r\n
+numComments=3

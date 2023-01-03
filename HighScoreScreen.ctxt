@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=HighScoreScreen
+comment0.text=\r\n\ This\ class\ is\ responsible\ for\ sorting\ the\ high\ scores\ and\ printing\r\n\ them\ to\ the\ screen\ when\ the\ player\ clicks\ on\ the\ high\ score\ icon.\r\n\ \r\n\ @author\ Ethan\ Lin\r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ The\ High\ Score\ Screen\ will\ get\ all\ the\ high\ scores\ from\ the\ highscore.txt\r\n\ file,\ then\ sort\ them\ and\ print\ them\ to\ the\ screen.\r\n
+comment2.params=
+comment2.target=void\ getHighScore()
+comment2.text=\r\n\ Retreives\ the\ scores\ and\ names\ from\ the\ text\ file\ and\ stores\ them\r\n\ in\ two\ separate\ ArrayLists\ using\ a\ tokenizer.\r\n
+comment3.params=scores\ names
+comment3.target=void\ sortHighScores(java.util.ArrayList,\ java.util.ArrayList)
+comment3.text=\r\n\ Goes\ through\ the\ ArrayList\ and\ sorts\ values\ from\ highest\ to\ lowest.\r\n\ Whatever\ changes\ are\ made\ to\ the\ score\ ArrayList,\ the\ same\ changes\r\n\ are\ made\ to\ the\ names\ ArrayList\ so\ that\ the\ scores\ match\ with\ the\ \r\n\ names.\r\n\ \r\n\ @param\ scores\ \ \ \ The\ ArrayList\ containing\ all\ of\ the\ scores\r\n\ @param\ names\ \ \ \ \ The\ ArrayList\ containing\ all\ of\ the\ names\r\n
+comment4.params=
+comment4.target=void\ showHighScores()
+comment4.text=\r\n\ Prints\ the\ high\ scores\ to\ the\ screen\ at\ specific\ locations,\ from\r\n\ highest\ to\ lowest.\r\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AttackSpeedBoost
+comment0.text=\r\n\ The\ AttackSpeedBoost\ subclass\ that\ speeds\ up\ how\ fast\ the\ guns\ shoot.\r\n\ It\ contains\ the\ sounds\ and\ the\ methods\ to\ speed\ up\ the\ fire\ rate.\r\n\ \r\n\ @author\ Charis,\ Johnathan\ \r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=AttackSpeedBoost()
+comment1.text=\r\n\ The\ constructor\ for\ the\ attackspeed\ buff.\r\n\ It\ calls\ on\ the\ super\ class's\ constructor.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ The\ act\ method\ that\ calls\ on\ the\ super\ class's\ constructor.\r\n\ It\ also\ gives\ the\ object\ a\ hitbox\ before\ removing\ the\ object\ after\ a\ certain\ amount\ of\ acts.\r\n
+numComments=3

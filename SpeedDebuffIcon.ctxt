@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=SpeedDebuffIcon
+comment0.text=\r\n\ Animates\ and\ displays\ image\ for\ the\ SpeedDebuff\ buff\ icon\r\n\ \r\n\ @author\ (William)\ \r\n\ @version\ (June\ 23,\ 2022)\r\n
+comment1.params=
+comment1.target=SpeedDebuffIcon()
+comment1.text=\r\n\ Calls\ the\ parent\ class\ constructor\ template\r\n\ Initializes\ Variables\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\nThe\ act\ method\ determines\ when\ the\ object\ is\ removed\ from\ the\ world\ and\ when\ the\ Icon\ will\ begin\ fading\ out.\r\n
+comment3.params=
+comment3.target=void\ scaleImages()
+comment4.params=
+comment4.target=void\ idleAnimate()
+numComments=5

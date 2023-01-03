@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IdleMarker
+comment0.text=\r\n\ IdleMarker\ is\ the\ subclass\ that\ contains\ the\ idle\ animation\ for\ the\ marker\ on\ the\ TitleWorld.\r\n\ \r\n\ @author\ Charis\ \r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=IdleMarker()
+comment1.text=\r\n\ The\ main\ constructor\ for\ the\ IdleMarker\ class\r\n\ It\ calls\ on\ the\ super\ class's\ constructor.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ The\ act\ method\ is\ called\ when\ the\ code\ is\ running.\r\n\ It\ calls\ on\ the\ super\ class's\ act\ method.\r\n
+comment3.params=
+comment3.target=void\ scaleImages()
+comment3.text=\r\n\ A\ method\ used\ to\ scale\ the\ images\ and\ assign\ them\ to\ a\ variable.\r\n
+comment4.params=
+comment4.target=void\ idleAnimate()
+comment4.text=\r\n\ A\ method\ used\ to\ animate\ the\ image\ by\ changing\ the\ animation\ frame\ every\ few\ acts.\r\n
+numComments=5

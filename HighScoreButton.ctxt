@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HighScoreButton
+comment0.text=\r\n\ Clicking\ this\ button\ will\ open\ the\ High\ Score\ Screen.\r\n\ \r\n\ @author\ Ethan\ Lin\r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=HighScoreButton()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ When\ the\ HighScoreButton\ is\ clicked,\ it\ will\ add\ a\ new\ \r\n\ HighScoreScreen\ to\ the\ world.\r\n
+numComments=3

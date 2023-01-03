@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SpeedBoostEraser
+comment0.text=\r\n\ Refer\ to\ the\ Eraser\ super\ class.\ SpeedBoostEraser\ is\ a\ default-type,\ supporting-type\ eraser\ that\ boosts\ the\ speeds\ of\ any\ eraser\ that\ goes\ near\ it.\ \r\n\ It\ moves\ like\ the\ DefaultEraser\ (a\ random\ direction\ for\ specified\ times,\ and\ if\ it\ touches\ a\ border\ it\ will\ teleport\ ot\ the\ opposite\ side).\ As\ it\ is\r\n\ a\ supporting-type\ eraser,\ it\ will\ not\ erase\ whereever\ it\ walks.\r\n\ When\ an\ eraser\ walks\ into\ its\ radius,\ it\ will\ move\ quicker\ for\ some\ time\ after\ getting\ out\ of\ the\ aura.\ There\ is\ an\ aura\ around\r\n\ the\ SpeedBoostEraser\ to\ indicate\ its\ range.\ This\ aura\ follows\ the\ Eraser\ wherever\ it\ goes.\r\n\ \r\n\ @author\ Henry\ Peng\r\n\ @version\ June\ 17,\ 2022\r\n
+comment1.params=maxSpeed
+comment1.target=SpeedBoostEraser(int)
+comment1.text=\r\n\ Constructor\ for\ SpeedBoostEraser.\ The\ max\ speed\ deterines\ how\ fast\ its\ default\ speed\ would\ be.\ This\ eraser\r\n\ will\ not\ erase,\ so\ an\ ink\ width\ is\ not\ needed.\r\n\ \r\n\ @param\ maxSpeed\ \ The\ speed\ the\ eraser\ will\ almost\ always\ move\ with.\ Only\ when\ they\ are\ sped\ up\ by\ the\ SpeedBoost\ eraser,\ will\ their\ speed\ change\ via\ a\ multiple\ of\ maxSpeed\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ It\ will\ move\ in\ a\ random\ direction\ for\ specified\ times\ and\ calls\ on\ its\ attack\ animation\r\n
+comment3.params=
+comment3.target=void\ walk()
+comment3.text=\r\n\ Walks\ in\ random\ directions\ for\ a\ set\ amount\ of\ time,\ then\ changes\ direction\ (or\ keeps\ going\ in\ the\ same\ direction)\r\n
+comment4.params=
+comment4.target=void\ idleAnimate()
+comment4.text=\r\n\ Idle\ animation\ for\ the\ eraser\r\n
+comment5.params=
+comment5.target=void\ boostAnimate()
+comment5.text=\r\n\ Boosting\ animation\ for\ the\ eraser\r\n
+numComments=6

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Buffs
+comment0.text=\r\n\ Buffs\ is\ the\ superclass\ of\ the\ buffs.\r\n\ It\ contains\ the\ sounds\ and\ methods\ used\r\n\ \r\n\ @author\ Charis,\ Johnathan\r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=Buffs()
+comment1.text=\r\n\ The\ main\ constructor\ for\ the\ Buffs\ class.\r\n\ It\ contains\ several\ act\ counters,\ sounds,\ and\ image\ transparencys.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ The\ act\ method\ runs\ when\ the\ code\ is\ running.\r\n\ It\ counts\ the\ acts\ to\ add\ a\ hitboxes\ and\ removes\ objects\ after\ a\ certain\ amount\ of\ acts.\r\n
+comment3.params=
+comment3.target=int\ getLastingCount()
+comment3.text=\r\n\ A\ method\ to\ get\ the\ lastingCount.\r\n
+numComments=4

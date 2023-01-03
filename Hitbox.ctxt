@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Hitbox
+comment0.text=\r\n\ This\ is\ a\ simple\ hitbox\ class\ that\ creates\ a\ circular\ hitbox\ using\ arguments\ that\ can\ customize\ the\ colour,\ size\ and\ owner\ of\ the\ hitbox.\r\n\ \r\n\ @author\ Henry\ \r\n\ @version\ June\ 10\r\n
+comment1.params=radius\ owner\ c
+comment1.target=Hitbox(int,\ Eraser,\ greenfoot.Color)
+comment1.text=\r\n\ This\ is\ the\ constructor\ for\ the\ hitbox.\ \r\n\ \r\n\ @param\ radius\ This\ is\ an\ integer\ that\ represents\ the\ radius\ of\ the\ hitbox.\r\n\ @param\ owner\ This\ is\ to\ represent\ the\ instance\ of\ an\ eraser\ that\ this\ hitbox\ would\ be\ attached\ to.\r\n\ @param\ c\ This\ represents\ the\ colour\ of\ the\ hitbox.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ this\ class.\ \r\n
+numComments=3

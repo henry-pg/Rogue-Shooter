@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ Button\ is\ the\ superclass\ of\ the\ buttons.\r\n\ It\ contains\ the\ sound\ and\ methods\ most\ buttons\ use.\r\n\ \r\n\ @author\ Charis,\ Johnathan\ \r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=Button()
+comment1.text=\r\n\ The\ main\ constructor\ for\ the\ Button\ class.\r\n\ It\ contains\ the\ sounds\ for\ the\ buttons\ and\ initializes\ a\ few\ variables.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ that\ runs\ when\ the\ code\ is\ running.\r\n\ Adds\ the\ first\ idle\ pencil\ and\ its\ description\r\n
+comment3.params=
+comment3.target=int\ getNum()
+comment3.text=\r\n\ Getter\ method\ to\ get\ the\ num\ variable.\r\n
+comment4.params=
+comment4.target=void\ removePencils()
+comment4.text=\r\n\ Method\ to\ remove\ all\ the\ pencils\ from\ the\ IdlePencil\ class\ from\ the\ world.\r\n
+numComments=5

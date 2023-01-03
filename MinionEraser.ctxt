@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MinionEraser
+comment0.text=\r\n\ Refer\ to\ the\ Eraser\ super\ class.\ Minion\ Eraser\ is\ a\ summonable-type,\ erasing-type\ enemy\ spawned\ by\ the\ SummonerEraser.\r\n\ It\ is\ extremely\ fragile\ (has\ very\ low\ health)\ and\ will\ die\ after\ eating\ a\ certain\ amount\ of\ ink.\ The\ behaviour\ is\ the\ same\ as\ the\ NormalEraser\ -\ walking\ \r\n\ in\ random\ directions\ for\ set\ number\ of\ intervals,\ and\ will\ tp\ to\ the\ other\ side\ of\ the\ screen\ if\ it\ touches\ a\ border\ (like\ DoodleJump).\r\n\ \r\n\ @author\ Johnathan\ Lam\r\n\ @version\ June\ 11,\ 2022\r\n
+comment1.params=maxSpeed\ eraserWidth
+comment1.target=MinionEraser(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ MinionEraser.\ The\ max\ speed\ determines\ how\ fast\ its\ default\ speed\ would\ be,\ while\ the\ \r\n\ erase\ width\ determines\ how\ big\ his\ erase\ area\ is.\r\n\ \r\n\ @param\ maxSpeed\ \ \ \ \ \ The\ speed\ the\ eraser\ will\ almost\ always\ move\ with.\ Only\ when\ they\ are\ sped\ up\ by\ the\ SpeedBoost\ eraser,\ will\ their\ speed\ change\ via\ a\ multiple\ of\ maxSpeed\r\n\ @param\ eraseWidth\ \ \ \ The\ width\ of\ its\ erasing\ size,\ it\ erases\ in\ a\ square.\ This\ is\ the\ length\ /\ width\ for\ the\ erasing\ square.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Chooses\ a\ direction\ to\ move\ when\ it\ spawns\ in.\ It\ also\ checks\ whether\ it\ ate\ the\ max\ amount\ of\ ink\r\n\ and\ will\ die\ if\ the\ condition\ is\ fulfilled.\ The\ Minion\ Eraser\ will\ also\ walk/behave\ like\ the\ NormalEraser,\ walking\ in\ random\ directions\ for\ a\ set\ amount\ of\ time\r\n
+comment3.params=
+comment3.target=void\ walk()
+comment3.text=\r\n\ Walks\ in\ random\ directions\ for\ a\ set\ amount\ of\ time,\ then\ changes\ direction\ (or\ keeps\ going\ in\ the\ same\ direction)\r\n
+comment4.params=
+comment4.target=void\ idleAnimate()
+comment4.text=\r\n\ Idle\ animation\ for\ the\ eraser\r\n
+numComments=5

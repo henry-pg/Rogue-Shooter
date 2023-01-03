@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PaperClipSaber
+comment0.text=\r\n\ PaperClipSaber\ is\ a\ melee\ weapon\ that\ deals\ high\ damage\ to\ all\ erasers\ that\r\n\ it\ touches\r\n\ \r\n\ @author\ Ethan\ Lin\r\n\ @version\ June\ 2022\r\n
+comment1.params=owner
+comment1.target=PaperClipSaber(Pencil)
+comment1.text=\r\n\ Constructor\ for\ PaperClipSaber.\ Calls\ the\ superclass'\ constructor\ and\r\n\ sets\ other\ important\ variables\r\n\ \r\n\ @param\ owner\ \ \ \ \ The\ player\ that\ the\ PaperClipSaber\ follows\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Lightsaber\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ shoot()
+comment3.text=\r\n\ Shoot\ method\ for\ PaperClipSaber.\ When\ mouse\ is\ clicked,\ goes\ through\ \r\n\ all\ of\ the\ attacking\ animations\ and\ deals\ damage\ to\ the\ eraser\r\n
+comment4.params=
+comment4.target=void\ flipImage()
+comment4.text=\r\n\ Flips\ image\ if\ the\ mouse\ moves\ to\ the\ other\ side\ of\ the\ weapon\r\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ButtonTitleScreen
+comment0.text=\r\n\ ButtonTitleScreen\ is\ a\ button\ that,\ when\ clicked\ on,\ will\ bring\ the\ player\ to\ the\ title\ screen.\r\n\ \r\n\ @author\ Johnathan\ Lam\ \r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=ButtonTitleScreen()
+comment1.text=\r\n\ The\ constructor\ for\ the\ ButtonTitleScreen\ class.\ When\ it\ is\ clicked\ on,\ it\ will\ play\ a\ page\ flip\ sound.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Checks\ whether\ it\ is\ clicked\ on,\ and\ if\ it\ is,\ return\ to\ the\ title\ screen\ and\ stop\ the\ main\ game\ music\r\n
+numComments=3

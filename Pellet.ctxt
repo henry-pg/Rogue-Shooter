@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Pellet
+comment0.text=\r\n\ Projectile\ shot\ by\ Shotgun\r\n\ \r\n\ @author\ Ethan\ Lin\r\n\ @version\ June\ 2022\r\n
+comment1.params=rotation
+comment1.target=Pellet(int)
+comment1.text=\r\n\ Constructor\ for\ pellet.\ Calls\ the\ superclass'\ constructor\r\n\ \r\n\ @param\ rotation\ \ \ \ \ \ The\ rotation\ of\ the\ weapon\ that\ fired\ it\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ Pellet.\ Calls\ the\ superclass'\ act\ method,\ but\ removes\ self\r\n\ from\ world\ if\ travelled\ a\ set\ distance\r\n
+numComments=3

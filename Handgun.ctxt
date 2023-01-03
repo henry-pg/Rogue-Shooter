@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Handgun
+comment0.text=\r\n\ The\ standard\ weapon\ that\ the\ player\ begins\ with.\ Fires\ a\ single\ Bullet.\r\n\ \r\n\ @author\ Ethan\ Lin\r\n\ @version\ June\ 2022\r\n
+comment1.params=owner
+comment1.target=Handgun(Pencil)
+comment1.text=\r\n\ Constructor\ for\ Handgun.\ Calls\ the\ superclass'\ constructor\ and\r\n\ sets\ other\ important\ variables\r\n\ \r\n\ @param\ owner\ \ \ \ \ The\ player\ that\ the\ Handgun\ follows\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\ \r\n\ Act\ method\ for\ Handgun.\ Uses\ the\ superclass'\ act\ method\r\n
+comment3.params=
+comment3.target=void\ shoot()
+comment3.text=\r\n\ Shoot\ method\ for\ Handgun.\ Fires\ a\ single\ Bullet\ when\ mouse\ is\ clicked\r\n
+comment4.params=
+comment4.target=void\ flipImage()
+comment4.text=\r\n\ Flips\ image\ if\ the\ mouse\ moves\ to\ the\ other\ side\ of\ the\ weapon\r\n
+numComments=5

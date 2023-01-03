@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Flamethrower
+comment0.text=\r\n\ Spawns\ a\ Fire\ object\ that\ deals\ constant\ damage\ to\ erasers\ over\ time\r\n\ \r\n\ @author\ Ethan\ Lin\ \r\n\ @version\ June\ 2022\r\n
+comment1.params=owner
+comment1.target=Flamethrower(Pencil)
+comment1.text=\r\n\ Constructor\ for\ Flamethrower.\ Calls\ the\ superclass'\ constructor\r\n\ and\ sets\ other\ important\ variables\r\n\ \r\n\ @param\ owner\ \ \ \ \ The\ player\ that\ the\ Flamethrower\ follows\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ Flamethrower.\ Uses\ the\ superclass'\ act\ method\r\n
+comment3.params=
+comment3.target=void\ shoot()
+comment3.text=\r\n\ Shoot\ method\ for\ Flamethrower.\ When\ mouse\ is\ clicked,\ spawns\ a\ Fire\ object\r\n\ that\ follows\ the\ Flamethrower\ and\ deals\ damage\ to\ enemies\ until\ the\ mouse\r\n\ is\ released.\r\n
+comment4.params=xOffset\ yOffset
+comment4.target=void\ setFireLocation(double,\ double)
+comment4.text=\ \r\n\ Method\ to\ set\ the\ location\ of\ Fire\ object\ to\ the\ location\ of\ the\ \r\n\ Flamethrower\ at\ an\ offsey\r\n
+comment5.params=
+comment5.target=void\ flipImage()
+comment5.text=\r\n\ Flips\ image\ if\ the\ mouse\ moves\ to\ the\ other\ side\ of\ the\ weapon\r\n
+comment6.params=
+comment6.target=Fire\ getFire()
+comment6.text=\r\n\ Returns\ the\ Fire\ object\ that\ it\ spawns\ when\ attacking\r\n\ \r\n\ @return\ fire\ \ \ \ \ The\ Fire\ object\ that\ is\ spawned\r\n
+numComments=7

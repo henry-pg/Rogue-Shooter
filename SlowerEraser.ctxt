@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SlowerEraser
+comment0.text=\r\n\ Refer\ to\ the\ Eraser\ super\ class.\ SlowerEraser\ is\ a\ default-type,\ attacking-type\ eraser\ that\ slows\ the\ player's\ speed\ down\ if\ they\ get\ too\ close.\ \r\n\ It\ moves\ like\ the\ DefaultEraser\ (a\ random\ direction\ for\ specified\ times,\ and\ if\ it\ touches\ a\ border\ it\ will\ teleport\ ot\ the\ opposite\ side).\ As\ it\ is\r\n\ an\ attacking-type\ eraser,\ it\ will\ not\ erase\ whereever\ it\ walks.\r\n\ When\ the\ player\ walks\ into\ its\ aura\ (or\ radius),\ the\ pencil's\ speed\ will\ be\ slowed\ for\ a\ few\ seconds\ after\ moving\ out\ of\ the\ slowing\ aura.\ There\ is\ an\ aura\ around\r\n\ the\ SlowerEraser\ to\ indicate\ its\ range.\ This\ aura\ follows\ the\ Eraser\ wherever\ it\ goes.\r\n\ \r\n\ @author\ Henry\ Peng\ \r\n\ @version\ June\ 17,\ 2022\r\n
+comment1.params=maxSpeed
+comment1.target=SlowerEraser(int)
+comment1.text=\r\n\ Constructor\ for\ SlowerEraser.\ The\ max\ speed\ deterines\ how\ fast\ its\ default\ speed\ would\ be.\ This\ eraser\r\n\ will\ not\ erase,\ so\ an\ ink\ width\ is\ not\ needed.\r\n\ \r\n\ @param\ maxSpeed\ \ The\ speed\ the\ eraser\ will\ almost\ always\ move\ with.\ Only\ when\ they\ are\ sped\ up\ by\ the\ SpeedBoost\ eraser,\ will\ their\ speed\ change\ via\ a\ multiple\ of\ maxSpeed\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ It\ will\ move\ in\ a\ random\ direction\ for\ a\ specified\ time\ then\ change\ directions\ and\ calls\ upon\ its\ idle\ animation.\r\n
+comment3.params=
+comment3.target=void\ walk()
+comment3.text=\r\n\ Same\ as\ the\ DefaultEraser's\ behaviour,\ it\ will\ walk\ in\ a\ specified\ direction\ for\ a\ set\ time,\ then\ change\ direction\ and\ time\ between\ changing\ in\ a\ random\r\n\ number\ generator.\ It\ will\ also\ teleport\ to\ the\ opposite\ border\ when\ it\ touches\ a\ border.\r\n
+comment4.params=
+comment4.target=void\ idleAnimate()
+comment4.text=\r\n\ Idle\ animation\ for\ the\ eraser\r\n
+numComments=5

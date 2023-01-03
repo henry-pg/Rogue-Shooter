@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IdlePencil
+comment0.text=\r\n\ IdlePencil\ is\ the\ super\ class\ that\ contains\ the\ idle\ animation\ for\ the\ pencils\ on\ the\ TitleWorld.\r\n\ \r\n\ @author\ Charis\ \r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=IdlePencil()
+comment1.text=\r\n\ The\ main\ constructor\ for\ the\ IdlePencil\ class\r\n\ It\ scales\ the\ images\ and\ sets\ the\ first\ image\ as\ the\ first\ image\ of\ the\ animation\ frames.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ The\ act\ method\ is\ called\ when\ the\ code\ is\ running.\r\n
+comment3.params=
+comment3.target=void\ scaleImages()
+comment3.text=\r\n\ scaleImages()\ is\ a\ method\ for\ each\ child\ class\ to\ initialize\ images\ to\ variables\ and\ scale\ them\ if\ needed\r\n
+comment4.params=
+comment4.target=void\ idleAnimate()
+comment4.text=\r\n\ idleAnimate()\ is\ a\ method\ used\ to\ iterate\ through\ images\ in\ an\ array\ and\ animate\ them.\r\n
+numComments=5

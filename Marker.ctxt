@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Marker
+comment0.text=\r\n\ Refer\ to\ the\ main\ Pencil\ class.\ It\ has\ the\ default\ stats\ except\ for\ an\ increased\ ink\ width\ and\ a\ decreased\ max\ speed.\r\n\ \r\n\ @author\ Johnathan\ Lam\r\n\ @version\ June\ 14,\ 2022\r\n
+comment1.params=maxSpeed\ inkWidth
+comment1.target=Marker(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ Marker.\ \r\n\ It\ would\ set\ the\ max\ speed\ the\ player\ would\ move\ at,\ the\ ink\ width,\ the\ starting\ surface\ area\ and\ the\ x\ y\ offsets.\r\n\ \r\n\ @param\ maxSpeed\ \ \ \ \ \ The\ speed\ the\ pencil\ will\ almost\ always\ move\ at.\ Only\ when\ it\ is\ sped\ up\ by\ the\ speed\ boost\ buff\ will\ their\ speed\ change\ via\ a\ multiple\ of\ maxSpeed.\r\n\ @param\ inkWidth\ \ \ \ \ \ The\ width\ of\ its\ drawing\ size,\ it\ draws\ in\ a\ square.\ This\ is\ the\ length\ /\ width\ for\ the\ drawing\ square.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ The\ default\ act\ method\ -\ only\ acts\ if\ the\ game\ has\ not\ declared\ a\ GAME\ OVER\ yet.\ The\ player\ spawns\ with\r\n\ a\ handgun.\ This\ also\ checks\ whether\ it\ is\ in\ the\ radius\ of\ the\ SlowerEraser\ and\ the\ PusherEraser\ and\ will\ act\ accordingly.\r\n\ This\ also\ allows\ the\ Pencil\ to\ move\ and\ draw\ on\ the\ page\ and\ have\ an\ idle\ animation.\r\n
+comment3.params=
+comment3.target=void\ idleAnimate()
+comment3.text=\r\n\ For\ the\ idle\ animation\r\n
+comment4.params=
+comment4.target=void\ scaleImages()
+comment4.text=\r\n\ For\ resizing\ the\ idle\ animations\ to\ a\ proper\ size.\r\n
+numComments=5

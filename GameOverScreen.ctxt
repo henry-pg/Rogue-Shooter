@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GameOverScreen
+comment0.text=\r\n\ GameOverScreen\ is\ an\ image\ that\ overlays\ on\ top\ of\ the\ main\ game\ screen\ when\ the\ player\ loses.\r\n\ \r\n\ @author\ Johnathan\ Lam\ \r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=GameOverScreen()
+comment1.text=\r\n\ The\ constructor\ for\ the\ GameOverScreen\ class.\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Checks\ if\ there\ is\ a\ ButtonTitleScreen\ in\ the\ world,\ if\ there\ is\ not,\ then\ spawn\ one\ in\r\n
+numComments=3

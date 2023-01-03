@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SummonerEraser
+comment0.text=\r\n\ Refer\ to\ the\ Eraser\ super\ class.\ Summoner\ Eraser\ is\ a\ default-type,\ erasing-type\ eraser\ that\ erases\ wherever\ it\ walks\r\n\ and\ summons\ 2\ MinionErasers\ after\ a\ certain\ time\ has\ passed.\ The\ movement\ is\ the\ same\ as\ the\ QuickEraser\ (bouncing\ off\ of\ walls),\r\n\ but\ slower.\r\n\ \r\n\ @author\ Johnathan\ Lam\ \r\n\ @version\ June\ 9,\ 2022\r\n
+comment1.params=maxSpeed\ eraserWidth
+comment1.target=SummonerEraser(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ SummonerEraser.\ The\ max\ speed\ determines\ how\ fast\ its\ default\ speed\ would\ be,\ while\ the\ \r\n\ erase\ width\ determines\ how\ big\ his\ erase\ area\ is.\r\n\ \r\n\ @param\ maxSpeed\ \ \ \ \ \ The\ speed\ the\ eraser\ will\ almost\ always\ move\ with.\ Only\ when\ they\ are\ sped\ up\ by\ the\ SpeedBoost\ eraser,\ will\ their\ speed\ change\ via\ a\ multiple\ of\ maxSpeed\r\n\ @param\ eraseWidth\ \ \ \ The\ width\ of\ its\ erasing\ size,\ it\ erases\ in\ a\ square.\ This\ is\ the\ length\ /\ width\ for\ the\ erasing\ square.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Summons\ Minions\ after\ the\ cooldown\ time\ has\ finished.\ It\ will\ stop\ while\ it\ is\ summoning.\ When\ it\ is\ walking,\ it\ will\r\n\ behave\ like\ the\ QuickEraser,\ bouncing\ off\ of\ walls\ when\ it\ hits\ one.\r\n
+comment3.params=
+comment3.target=void\ walk()
+comment3.text=\r\n\ Bounces\ off\ of\ walls\ when\ it\ hits\ a\ wall\ only\ if\ it\ is\ not\ spawning\ minions\r\n
+comment4.params=
+comment4.target=void\ spawnMinions()
+comment4.text=\r\n\ Spawns\ 2\ minions\ in\ random\ locations\r\n
+comment5.params=
+comment5.target=void\ idleAnimate()
+comment5.text=\r\n\ The\ idle\ animation\ for\ the\ Eraser\r\n
+comment6.params=
+comment6.target=void\ summonAnimate()
+comment6.text=\r\n\ The\ summoning\ animation\ for\ the\ Eraser\r\n
+numComments=7

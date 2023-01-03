@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=XButton
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ XButton\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=owner
+comment1.target=XButton(HighScoreScreen)
+comment1.text=\r\n\ Constructor\ for\ XButton.\r\n\ \r\n\ @param\ owner\ \ \ \ \ The\ HighScoreScreen\ that\ this\ XButton\ is\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ responsible\ for\ removing\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ If\ the\ XButton\ is\ clicked,\ it\ will\ remove\ the\ HighScoreScreen,\r\n\ the\ text,\ and\ itself\ from\ the\ world.\r\n
+numComments=3

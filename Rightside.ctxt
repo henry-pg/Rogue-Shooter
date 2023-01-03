@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Rightside
+comment0.text=\r\n\ Leftside\ is\ the\ subclass\ of\ Button.\r\n\ It\ contains\ the\ method\ used\ to\ switch\ the\ idle\ pencil\ image\ towards\ the\ left.\r\n\ \r\n\ @author\ Charis,\ Johnathan\ \r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=Rightside()
+comment1.text=\r\n\ The\ constructor\ for\ the\ Rightside\ button.\r\n\ It\ calls\ on\ the\ super\ class's\ constructor.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ The\ act\ method\ runs\ when\ the\ code\ is\ running.\r\n\ It\ switches\ the\ pencil\ image\ towards\ the\ right.\r\n
+numComments=3

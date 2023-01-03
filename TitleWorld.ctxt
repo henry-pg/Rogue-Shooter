@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=TitleWorld
+comment0.text=\r\n\ TitleWorld\ is\ the\ subclass\ of\ the\ world\ that\ the\ code\ first\ calls\ on\ when\ it\ runs.\r\n\ It\ contains\ the\ starting\ music/sounds\ and\ some\ text\ that\ informs\ the\ user\ how\ to\ move\ to\ the\ next\ screen.\r\n\ \r\n\ @author\ Charis,\ Johnathan\ \r\n\ @version\ June\ 2022\r\n
+comment1.params=
+comment1.target=TitleWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TitleWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ firstTimeFalse()
+comment3.params=
+comment3.target=void\ started()
+comment3.text=\r\n\ Stars\ music\ when\ code\ is\ running\r\n
+comment4.params=
+comment4.target=void\ stopped()
+comment4.text=\r\n\ Stops\ music\ when\ code\ is\ paused\r\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ Act\ method\ is\ called\ when\ the\ code\ is\ running.\r\n\ Button\ booleans\ are\ set\ to\ true\ to\ prevent\ the\ world\ from\ adding\ buttons\ indefinitely.\r\n\ Changes\ the\ world\ when\ spacebar\ is\ pressed.\r\n
+numComments=6

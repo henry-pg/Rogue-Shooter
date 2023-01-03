@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Shotgun
+comment0.text=\r\n\ Shotgun\ fires\ 5\ pellets\ at\ slightly\ different\ angles\ which\ spread\ out\ over\r\n\ a\ large\ area\r\n\ \r\n\ @author\ Ethan\ Lin\r\n\ @version\ June\ 2022\r\n
+comment1.params=owner
+comment1.target=Shotgun(Pencil)
+comment1.text=\r\n\ Constructor\ for\ Shotgun.\ Calls\ the\ superclass'\ constructor\ and\r\n\ sets\ other\ important\ variables\r\n\ \r\n\ @param\ owner\ \ \ \ \ The\ player\ that\ the\ Shotgun\ follows\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ Shotgun.\ Uses\ the\ superclass'\ act\ method\r\n
+comment3.params=
+comment3.target=void\ shoot()
+comment3.text=\r\n\ Shoot\ method\ for\ Shotgun.\ Fires\ 5\ pellets\ with\ slightly\ varying\ rotations\r\n\ \r\n
+comment4.params=
+comment4.target=void\ flipImage()
+comment4.text=\r\n\ Flips\ image\ if\ the\ mouse\ moves\ to\ the\ other\ side\ of\ the\ weapon\r\n
+numComments=5

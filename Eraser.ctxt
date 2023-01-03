@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Eraser
+comment0.text=\r\n\ This\ is\ the\ base\ of\ all\ eraser\ classes.\ There\ are\ 3\ types\ of\ erasers\ -\ an\ eraser\ type\ that\ removes\ \r\n\ the\ territory\ of\ the\ pencil,\ another\ that\ boosts\ the\ stats\ of\ other\ nearby\ erasers\ and\ one\ that\ attacks\ the\ pencil\ directly.\r\n\ They\ can\ be\ killed\ through\ the\ weapons\ the\ pencil\ utilizes.\ Their\ HP\ can\ be\ shown\ above\ their\ heads\ only\ when\ they\ are\ damaged.\r\n\ \r\n\ @author\ Johnathan\ Lam\ \r\n\ @version\ June\ 16,\ 2022\r\n
+comment1.params=maxSpeed\ eraseWidth\ maxHealth
+comment1.target=Eraser(int,\ int,\ int)
+comment1.text=\r\n\ Main\ constructor\ for\ the\ Eraser\ class.\ This\ would\ be\ the\ blueprint\ for\ all\ or\ almost\ all\ of\ the\ eraser\ subclasses.\r\n\ It\ would\ set\ the\ max\ speed\ the\ eraser\ would\ move\ at,\ the\ eraser\ width\ and\ the\ max\ health\ it\ comes\ with.\r\n\ \r\n\ @param\ maxSpeed\ \ \ \ \ \ The\ speed\ the\ eraser\ will\ almost\ always\ move\ with.\ Only\ when\ they\ are\ sped\ up\ by\ the\ SpeedBoost\ eraser,\ will\ their\ speed\ change\ via\ a\ multiple\ of\ maxSpeed\r\n\ @param\ eraserWidth\ \ \ The\ width\ of\ its\ erasing\ size,\ it\ erases\ in\ a\ square.\ This\ is\ the\ length\ /\ width\ for\ the\ erasing\ square.\r\n\ @param\ maxHealth\ \ \ \ \ The\ max\ health\ the\ eraser\ will\ spawn\ with\ in\ when\ it\ spawns\ in.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ The\ default\ act\ method\ -\ only\ walks\r\n
+comment3.params=
+comment3.target=void\ walk()
+comment3.text=\r\n\ For\ every\ Eraser\ subclass,\ they\ should\ have\ a\ dedicated\ walk\ method\ to\ move\ around\ the\ world.\r\n
+comment4.params=damage
+comment4.target=void\ takeDamage(int)
+comment4.text=\r\n\ Allows\ the\ erasers\ to\ take\ damage\ from\ the\ weapons\ of\ the\ pencil.\ If\ the\ health\ falls\ below\ or\ equals\ 0,\ it\ will\ die.\ \r\n\ \r\n\ @param\ damage\ \ \ \ The\ amount\ of\ damage\ the\ weapon\ deals\r\n
+numComments=5

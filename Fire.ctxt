@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Fire
+comment0.text=\r\n\ Object\ spawned\ by\ Flamethrower\ which\ deals\ constant,\ increasing\ damage\ over\r\n\ timer\ to\ all\ Erasers\ that\ it\ touches\r\n\ \r\n\ @author\ Ethan\ Lin\r\n\ @version\ June\ 2022\r\n
+comment1.params=rotation
+comment1.target=Fire(int)
+comment1.text=\r\n\ Constructor\ for\ Fire.\ Sets\ important\ variables.\r\n\ \r\n\ @param\ rotation\ \ \ \ \ \ The\ rotation\ of\ the\ Flamethrower\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ Fire.\ Goes\ through\ animations\ and\ deals\ constant\ damage\r\n\ to\ Erasers\r\n
+comment3.params=
+comment3.target=void\ animate()
+comment3.text=\r\n\ Method\ to\ repeat\ main\ Fire\ animations\r\n
+numComments=4
